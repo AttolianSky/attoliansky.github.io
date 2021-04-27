@@ -1140,11 +1140,7 @@ section {
 
 
 .about .video-box {
-<<<<<<< HEAD
-  background: url("assets/img/front.jpg") center center no-repeat;
-=======
   background: url("../img/four.jpg") center center no-repeat;
->>>>>>> parent of acb35ab (hn)
   background-size: cover;
   min-height: 500px;
 }
