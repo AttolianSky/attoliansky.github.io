@@ -1140,7 +1140,7 @@ section {
 
 
 .about .video-box {
-  background: url("./img/front.jpg") center center no-repeat;
+  background: url("../img/four.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
