@@ -1680,6 +1680,6 @@ section {
   text-decoration: none;
 }
 
-.chatbot{
+#chat .chatbot{
 	height: 10px;
 }
