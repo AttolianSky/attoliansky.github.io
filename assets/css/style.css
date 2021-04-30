@@ -1679,3 +1679,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.chatbot{
+	height: 10px;
+}
