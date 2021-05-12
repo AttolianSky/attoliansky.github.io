@@ -115,10 +115,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: #fff;
-  height: 30px;
-  font-size: 12px;
+  font-size: 14px;
   transition: all 0.5s;
   z-index: 996;
+    height: 30px;
 }
 
 #topbar.topbar-scrolled {
@@ -163,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 0;
 }
 
+#topbar .social-links user{
+	height: 30px;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -171,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 10px 0;
-  top: 25px;
+  top: 30px;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
   height: 85px;
 }
@@ -196,10 +200,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo a {
   color: #2c4964;
-}
-
-#header .logo img {
-  max-height: 30px;
 }
 
 /**
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero{
   width: 100%;
   height: 120vh;
   background: url("../img/hero-bg.jpg") top center;
@@ -471,13 +471,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #2c4964;
 }
 
-#hero h2 {
+#hero  h2 {
   color: #2c4964;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero  .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -1679,4 +1679,99 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+.chat-wrapper[opened="true"] {
+   height:73% !important;
+   width: 35% !important;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#form .body {
+    background: #B8DAE1 ;
+}
+
+#form{
+	width: absolute;
+}
+
+#form .label{
+	display: inline-block;
+	width: 100px;
+    font-weight: 50;
+	text-align: right;
+	padding: 10px;
+}
+
+#form .h3{
+	display: inline-block;
+}
+
+#form .input{
+	color: #0F1011;
+    margin: 0px auto 30px;
+    font-size: 20px;
+    font-weight: 50;
+    text-align: left;
+}
+
+#form .input[name=age]{
+	width:50px;
+        margin: 0px auto 30px;
+}
+
+#form .input[name=gender]{
+	width:100px;
+}
+
+#form ::placeholder{
+	color:#000066;
+    font-size: 15px;
+}
+
+#form .div {
+  max-width: 2000px;
+  height: 30px;
+}
+
+#form .button{
+	color: #fff;
+    background: #55a1ff;
+    border: 2;
+    outline: 0;
+    width: 15%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# Alert Message
+--------------------------------------------------------------*/
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
