@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #1977cc; /*light blue*/
+  color: #1977cc;
 }
 
 .navbar-mobile .getstarted {
@@ -948,7 +948,7 @@ section {
 
 .btn:hover {
   color: #fff;
-  background: #1977cc; /*light blue*/
+  background: #1977cc;
 }
 
 .why-us .icon-boxes .icon-box {
@@ -962,7 +962,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #1977cc; /*light blue*/
+  color: #1977cc;
   margin-bottom: 30px;
 }
 
@@ -1017,7 +1017,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #badaf7; /vv light blue/
+  color: #badaf7;
   font-size: 26px;
 }
 
@@ -1049,11 +1049,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1977cc;  /*light blue*/
+  border: 1px solid #1977cc;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1977cc;  /*light blue*/
+  background-color: #1977cc;
 }
 
 @media (max-width: 767px) {
@@ -1076,14 +1076,14 @@ section {
 
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #4b7dab; /*gray blue*/
+  color: #4b7dab;
   margin-bottom: 15px;
 }
 
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #2c4964; /*dark gray blue*/
+  color: #2c4964;
   margin-bottom: 15px;
 }
 
@@ -1098,7 +1098,7 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #8dc2f1;  /*goodness another light blue*/
+  border: 2px solid #8dc2f1;
   border-radius: 50px;
   transition: 0.5s;
 }
@@ -1323,7 +1323,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #badaf7; /*vv light blue*/
+  background: #badaf7;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   transform: translateZ(-1px);
@@ -1388,7 +1388,7 @@ section {
 .appointment .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d; /*orange*/
+  background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1474,7 +1474,7 @@ section {
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
-  color: #2c4964; /*gray blue*/
+  color: #2c4964;
   border-radius: 0;
   border-right: 2px solid #ebf1f6;
   font-weight: 600;
@@ -1580,7 +1580,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1c84e3; /*another blue*/
+  color: #1c84e3;
   font-size: 18px;
   line-height: 1;
 }
